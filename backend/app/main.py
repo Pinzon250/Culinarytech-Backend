@@ -28,7 +28,7 @@ def welcome_root():
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # O "*" para todos
+    allow_origins=["https://culinarytech.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
